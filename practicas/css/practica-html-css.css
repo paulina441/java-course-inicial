@@ -1,0 +1,28 @@
+body{
+    font-family: cursive;
+    /* El fondo de la pagina web toma la imagen de la URL */
+    background-image: url(/practicas/img/fondo.jpg);
+    /* La imagen de fondo no se repite */
+    background-repeat: no-repeat;
+    /* Con Cover la imagen toma el tamaño del contenedor */
+    background-size: cover;
+}
+header{
+    /* rgb dentro de color define el color del texto en que tanto de rojo, verde y azul y opcional la opacidad o transparecia que va de 0.0 a 1.0 */
+    color: rgb(57, 58, 70, 0.5);
+    font-size: 20px;
+}
+h1{
+    color: rgb(13, 4, 79);
+    /* opacity le da transparencia a un elemento, va de 0.0 a 1.0, siendo 0.0 completamente transparente y 1.0 completamente opaco */
+    opacity: 1.0;
+}
+.img-html{
+    width: 250;
+    height: 50%;
+  
+}
+.img-css{
+    width: 250px;
+    height: 50%;
+}
