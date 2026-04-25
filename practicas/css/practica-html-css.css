@@ -8,23 +8,77 @@ body{
     background-size: cover;
 }
 .header-title{
+    /* Permite alinear UN SOLO elemento dentro de un contenedor flex, en este caso el header-title se alinea al centro del contenedor header. */
     align-self: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 .header{
     /* rgb dentro de color define el color del texto en que tanto de rojo, verde y azul y opcional la opacidad o transparecia que va de 0.0 a 1.0 */
     color: rgba(249, 249, 249, 0.6);
+    /* Activamos flex para usar flexobox y asi alinear los elementos */
     display: flex;
-    
+    /* Le da una direccion a los elementos, en este caso en columna */
     flex-direction: column;
     font-size: 20px;
     background-color: rgba(29, 28, 57, 0.8);
-
+    border-radius: 20px ;
+    border: 4px ridge rgb(13, 4, 79);
+    height: 80px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section{
+    color: #cec7ff;
+    text-decoration: none;
+    
 }
 h1{
     color: rgb(13, 4, 79);
     /* opacity le da transparencia a un elemento, va de 0.0 a 1.0, siendo 0.0 completamente transparente y 1.0 completamente opaco */
     opacity: 1.0;
+    display: flex;
+    justify-content: center;
 }
+.txt{
+    background-color: rgba(29, 28, 57, 0.5);
+    border-radius: 20px ;
+    border: 4px ridge rgb(13, 4, 79);
+    color: rgb(249, 249, 249);
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+.container-html{
+    background-color: rgba(29, 28, 57, 0.5);
+    border-radius: 20px ;
+    border: 4px ridge rgb(13, 4, 79);
+    color: rgb(249, 249, 249);
+    width: 35%;
+    margin-top: 50px;
+    margin-left: 130px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    text-shadow: 3px 4px 3px rgba(57, 118, 249, 0.705);
+}
+.container-css{
+    background-color: rgba(29, 28, 57, 0.5);
+    border-radius: 20px ;
+    border: 4px ridge rgb(13, 4, 79);
+    color: rgb(249, 249, 249);
+    width: 35%;
+    margin-top: 50px;
+    margin-left: 110px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    text-shadow: 3px 4px 3px rgba(57, 118, 249, 0.705);
+}
+
 .img-html{
     width: 250;
     height: 50%;
