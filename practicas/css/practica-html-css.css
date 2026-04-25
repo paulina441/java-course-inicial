@@ -7,10 +7,18 @@ body{
     /* Con Cover la imagen toma el tamaño del contenedor */
     background-size: cover;
 }
-header{
+.header-title{
+    align-self: center;
+}
+.header{
     /* rgb dentro de color define el color del texto en que tanto de rojo, verde y azul y opcional la opacidad o transparecia que va de 0.0 a 1.0 */
-    color: rgb(57, 58, 70, 0.5);
+    color: rgba(249, 249, 249, 0.6);
+    display: flex;
+    
+    flex-direction: column;
     font-size: 20px;
+    background-color: rgba(29, 28, 57, 0.8);
+
 }
 h1{
     color: rgb(13, 4, 79);
