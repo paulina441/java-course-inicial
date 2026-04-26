@@ -23,62 +23,116 @@
     <!-- Etiquetas de texto -->
     <!-- Desde h1 hasta h6 son encabezados jerarquicos, siendo h1 el mas importante y h6 el menos importante. -->
     <div class="header">
-    <header class="header-title">Conceptos HTML Y CSS</header>
-    <nav class="nav">
-        <a href="" class="section">Sección 1</a>
-        <a href="" class="section">Sección 2</a>
-        <a href="" class="section">Sección 3</a>
-        <a href="" class="section">Sección 4</a>
-        <a href="" class="section">Sección 5</a>
-    </nav>
+        <header class="header-title">Conceptos HTML Y CSS</header>
+        <nav class="nav">
+            <a href="" class="section">Sección 1</a>
+            <a href="" class="section">Sección 2</a>
+            <a href="" class="section">Sección 3</a>
+            <a href="" class="section">Sección 4</a>
+            <a href="" class="section">Sección 5</a>
+        </nav>
     </div>
     <h1>Practica HTML y CSS Nivel Inicial</h1>
     <section class="txt">
-    <strong><em>
-            <p>Esta pagina web es una practica con todos los conceptos aprendidos en el curso inicial de JavaScript en
-                donde
-                nos enseñaron HTML y CSS. Nota: parrafo con stronge con em</p>
-        </em></strong>
-    <p>Esta pagina web es una practica con todos los conceptos aprendidos en el curso inicial de JavaScript en donde nos
-        enseñaron HTML y CSS. Nota: parrafo sin stronge y sin em</p>
-    <b><i>
-            <p>Ademas en el curso me enseñaron JavaScript, git, emprendimiento e innovacion. Nota: parrafo con b e i</p>
-        </i></b>
-    <p>Ademas en el curso me enseñaron JavaScript, git, emprendimiento e innovacion. Nota: parrafo sin b e i</p>
+        <strong><em>
+                <p>Esta pagina web es una practica con todos los conceptos aprendidos en el curso inicial de JavaScript
+                    en
+                    donde
+                    nos enseñaron HTML y CSS. Nota: parrafo con stronge con em</p>
+            </em></strong>
+        <p>Esta pagina web es una practica con todos los conceptos aprendidos en el curso inicial de JavaScript en donde
+            nos
+            enseñaron HTML y CSS. Nota: parrafo sin stronge y sin em</p>
+        <b><i>
+                <p>Ademas en el curso me enseñaron JavaScript, git, emprendimiento e innovacion. Nota: parrafo con b e i
+                </p>
+            </i></b>
+        <p>Ademas en el curso me enseñaron JavaScript, git, emprendimiento e innovacion. Nota: parrafo sin b e i</p>
     </section>
-    <div class="container-html">
-        <h2>HTML</h2>
-        <img class="img-html" src="/practicas/img/html.png" alt="">
-        <!-- lista ordenada ( numerada) -->
-        <ol>
-            <li>Etiqueta</li>
-            <li>Atributo</li>
-            <li>Valor</li>
-        </ol>
-        <!-- Lista desordenada (con viñetas) -->
-        <ul>
-            <li>Encabezado (HEADER)</li>
-            <li>Contenido principal (MAIN)</li>
-            <li>Pie de página (FOOTER)</li>
-        </ul>
+    <div class="parent-container">
+        <div class="container">
+            <div class="tit">
+                <h2>HTML</h2>
+                <img class="img" src="/practicas/img/html.png" alt="">
+            </div>
+            <!-- lista ordenada ( numerada) -->
+            <div class="lista">
+                <ol>
+                    <li>Etiqueta:</li>
+                    <p class="definicion">Bloque de construcción.</p>
+                    <li>Atributo</li>
+                    <p class="definicion">Información adicional para modificar el comportamiento o propiedades.</p>
+                    <li>Valor</li>
+                    <p class="definicion">Dato específico que se asigna a un atributo.</p>
+                </ol>
+                <!-- Lista desordenada (con viñetas) -->
+                <ul>
+                    <li>Encabezado (HEADER)</li>
+                    <p class="definicion">Introducción, navegación principal</p>
+                    <li>Contenido principal (MAIN)</li>
+                    <p class="definicion">Contenido principal de la página web, solo se usa una vez por página.</p>
+                    <li>Pie de página (FOOTER)</li>
+                    <p class="definicion">Parte final de la página que contiene información como contacto, derechos de
+                        autor, enlaces o redes sociales.</p>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="tit">
+                <h2>CSS</h2>
+                <img class="img" src="/practicas/img/css.png" alt="">
+            </div>
+            <!-- lista ordenada ( numerada) -->
+            <div class="lista">
+                <ol>
+                    <li>Inline</li>
+                    <p class="definicion">CSS en linea, se esbribe directacmente en el HTML.</p>
+                    <li>Interno</li>
+                    <p class="definicion">CSS interno, se define dentro del elemento style en el head.</p>
+                    <li>Externo</li>
+                    <p class="definicion">CSS externo, es un archivo .css separado y vinculado al HTML.</p>
+                </ol>
+                <!-- Lista desordenada (con viñetas) -->
+                <ul>
+                    <li>Padding</li>
+                    <p class="definicion">Espacio entre el contenido y el border.</p>
+                    <li>Border</li>
+                    <p class="definicion">Linea que rodea el padding y el contenido.</p>
+                    <li>Margin</li>
+                    <p class="definicion">Distancia entre un elemento y otro.</p>
+                </ul>
+            </div>
+        </div>
     </div>
-    <div class="container-css">
-        <h2>CSS</h2>
-        <img class="img-css" src="/practicas/img/css.png" alt="">
-        <!-- lista ordenada ( numerada) -->
-        <ol>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ol>
-        <!-- Lista desordenada (con viñetas) -->
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </div>
-    <footer>Pie de página PROVICIONAL</footer>
+    <footer>
+        <h3>SOBRE MI</h3>
+        <div class="columnas">
+            <div class="column">
+                <ul>
+                    <li>Quien soy</li>
+                </ul>
+                <p>Soy una chica de 20 años, proxima a realizar las practicas profesionales que quiere aprender todo lo que sea posible, formarme en esté mundo del desarrollo y aportar mi granito de arena.</p>
+            </div>
+            <div class="column">
+                <ul>
+                    <li>Intereses</li>
+                </ul>
+                <p>En el mundo de la programación mis principales intereses son el diseño web en HTML y CSS, JavaSript
+                    para la lógica y la interacción, por otro lado la gestión de bases de datos, desde su creación y
+                    normalización hasta su analisis, en un futuro me interesaria aprender sobre Inteligencia Artificial.
+                </p>
+            </div>
+            <div class="column">
+                <ul>
+                    <li>Contacto</li>
+                </ul>
+                <p>Correo electronico:  castanoarenasmariapaulina@gmail.com
+
+                </p>
+            </div>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
