@@ -31,7 +31,7 @@ body{
     background-color: rgba(29, 28, 57, 0.8);
     border-radius: 20px ;
     border: 4px ridge rgb(13, 4, 79);
-    height: 200px;
+    height: auto;
     text-align: center;
     margin: 50px 20px 0 20px;
     padding: 10px;
@@ -82,4 +82,17 @@ footer{
      width: 30%;
     color: white;
     text-align: justify;
+}
+
+#resultados {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    padding: 20px;
+}
+
+.tarjeta {
+    background: rgb(75, 61, 145);
+    padding: 16px;
+    border-radius: 12px;
 }
