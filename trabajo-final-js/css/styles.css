@@ -1,0 +1,85 @@
+body{
+    font-family: cursive;
+    background-image: url(/practicas/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+.header-title{
+    align-self: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 28px;
+}
+.header{
+    color: rgba(255, 254, 254, 0.9);
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    background-color: rgba(29, 28, 57, 0.8);
+    border-radius: 20px ;
+    border: 4px ridge rgb(13, 4, 79);
+    height: 150px;
+    text-align: center;
+    margin: 20px 20px 0 20px;
+}
+.main{
+    color: rgba(246, 246, 246, 0.9);
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    background-color: rgba(29, 28, 57, 0.8);
+    border-radius: 20px ;
+    border: 4px ridge rgb(13, 4, 79);
+    height: 200px;
+    text-align: center;
+    margin: 50px 20px 0 20px;
+    padding: 10px;
+}
+.container-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+  background-color: rgb(97, 97, 198);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  height: 60px;
+  width: 140px;
+  transition: 0.3s; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover {
+  background-color: darkblue; 
+}
+
+h3{
+    text-shadow: 3px 4px 3px rgba(57, 118, 249, 0.705);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: 20px;
+}
+footer{
+    background-color:rgb(13, 4, 79);
+    color: white;
+    width: 100%;
+    margin-top: 70px;
+}
+.columnas{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 15px 0 0 20px;
+}
+.column{
+     width: 30%;
+    color: white;
+    text-align: justify;
+}
